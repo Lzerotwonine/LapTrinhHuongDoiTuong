@@ -25,12 +25,13 @@ public class SanPham {
     }
     
     public void nhap() {
+        Scanner in = new Scanner(System.in);
         System.out.println("\nTen san pham: ");
-        tenSp = new Scanner(System.in).nextLine();
+        tenSp = in.nextLine();
         System.out.println("Don gia: ");
-        donGia = new Scanner(System.in).nextDouble();
+        donGia = in.nextDouble();
         System.out.println("Giam gia: ");
-        giamGia = new Scanner(System.in).nextDouble();
+        giamGia = in.nextDouble();
     }
     
     public void xuat() {
