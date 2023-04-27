@@ -6,7 +6,7 @@ public class LopHocPhan {
     private ArrayList<SinhVien> dsSV = new ArrayList<SinhVien>();
 
     public int getSoLuongSV(){
-        return 0;
+        return this.dsSV.size();
     }
 
     @Override
