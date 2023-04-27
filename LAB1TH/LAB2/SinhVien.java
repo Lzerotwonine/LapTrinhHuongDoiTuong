@@ -3,6 +3,11 @@ package lab2;
 public class SinhVien {
     private String maSV, hoTen;
 
+    @Override
+    public String toString() {
+        return "\t" + maSV + "|" + hoTen;
+    }
+    
     public SinhVien() {
     }
     
